@@ -1,5 +1,7 @@
 FROM node:6.9-alpine
 
+CMD node server/server.js
+
 # Set the applilcation directory
 WORKDIR /app
 
